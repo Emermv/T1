@@ -1,0 +1,19 @@
+/*
+ * Persona.cpp
+ *
+ *  Created on: Sep 12, 2016
+ *      Author: emerisau2016
+ */
+
+#include "Persona.h"
+
+Persona::Persona(string codigo,string nombre,string apellidos,string genero,int edad){
+	this->codigo=codigo;
+	this->nombre=nombre;
+	this->apellidos=apellidos;
+	this->genero=genero;
+	this->edad=edad;
+}
+string Persona::getCodigo(){
+	return this->codigo;
+}

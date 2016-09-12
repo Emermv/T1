@@ -1,0 +1,7 @@
+10:16:20 **** Clean-only build of configuration Debug for project Arboles ****
+make clean 
+rm -rf  ./src/Arboles.o  ./src/Arboles.d  Arboles
+ 
+
+10:16:20 Build Finished (took 379ms)
+

@@ -1,0 +1,17 @@
+/*
+ * Persona.h
+ *
+ *  Created on: Sep 12, 2016
+ *      Author: emerisau2016
+ */
+
+#ifndef PERSONA_H_
+#define PERSONA_H_
+
+class Persona {
+public:
+	Persona();
+	virtual ~Persona();
+};
+
+#endif /* PERSONA_H_ */

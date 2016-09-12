@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : T1.cpp
+// Author      : Emer
+// Version     :
+// Copyright   : allsoft.hol.es
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Emer " << endl; // prints Emer 
+	return 0;
+}

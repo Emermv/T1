@@ -1,0 +1,13 @@
+10:16:47 **** Incremental Build of configuration Debug for project T1 ****
+make all 
+Building file: ../src/T1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/T1.d" -MT"src/T1.d" -o "src/T1.o" "../src/T1.cpp"
+In file included from ../src/T1.cpp:3:0:
+../src/Persona.h:1:18: fatal error: strin.h: No such file or directory
+src/subdir.mk:18: recipe for target 'src/T1.o' failed
+compilation terminated.
+make: *** [src/T1.o] Error 1
+
+10:16:48 Build Finished (took 607ms)
+

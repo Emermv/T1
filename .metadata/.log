@@ -1,0 +1,83 @@
+!SESSION 2016-09-12 08:55:28.940 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.820
+!MESSAGE NLS unused message: TemplateEngine.internalError in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.823
+!MESSAGE NLS unused message: TemplateEngine.templateEngine in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.823
+!MESSAGE NLS unused message: ProjectCreatedActions.InsufficientInformation in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.823
+!MESSAGE NLS unused message: ConditionalProcessGroup.notExecuting in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.823
+!MESSAGE NLS unused message: ConditionalProcessGroup.unexpandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.823
+!MESSAGE NLS unused message: Process.argument in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.expandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.unknownProcess in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: Process.executedSuccessfully in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: ProcessRunner.unexpectedArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.824
+!MESSAGE NLS unused message: ProcessRunner.missingArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.825
+!MESSAGE NLS unused message: ProcessRunner.argumentsMismatch in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.825
+!MESSAGE NLS unused message: ProcessRunner.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.825
+!MESSAGE NLS unused message: ProcessRunner.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.825
+!MESSAGE NLS unused message: ProcessRunner.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-09-12 09:00:41.825
+!MESSAGE NLS unused message: ProcessHelper.fileNotFound in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-12 09:00:52.961
+!MESSAGE Indexed 'Arboles' (1 sources, 104 headers) in 5.47 sec: 8,364 declarations; 14,601 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-12 09:52:53.643
+!MESSAGE Indexed 'T1' (1 sources, 104 headers) in 3.2 sec: 8,364 declarations; 14,601 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2016-09-12 10:16:51.544
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/emerisau2016/Desktop/ARBOLES BINARIOS/T1/Debug/T1 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:691)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:85)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:71)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -1,0 +1,101 @@
+09:01:32 **** Build of configuration Debug for project Arboles ****
+make all 
+Building file: ../src/Arboles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arboles.d" -MT"src/Arboles.d" -o "src/Arboles.o" "../src/Arboles.cpp"
+Finished building: ../src/Arboles.cpp
+ 
+Building target: Arboles
+Invoking: GCC C++ Linker
+g++  -o "Arboles"  ./src/Arboles.o   
+Finished building target: Arboles
+ 
+09:02:14 **** Incremental Build of configuration Debug for project Arboles ****
+make all 
+make: Nothing to be done for 'all'.
+09:03:13 **** Clean-only build of configuration Debug for project Arboles ****
+make clean 
+rm -rf  ./src/Arboles.o  ./src/Arboles.d  Arboles
+ 
+09:03:21 **** Build of configuration Debug for project Arboles ****
+make all 
+Building file: ../src/Arboles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arboles.d" -MT"src/Arboles.d" -o "src/Arboles.o" "../src/Arboles.cpp"
+Finished building: ../src/Arboles.cpp
+ 
+Building target: Arboles
+Invoking: GCC C++ Linker
+g++  -o "Arboles"  ./src/Arboles.o   
+Finished building target: Arboles
+ 
+09:03:38 **** Incremental Build of configuration Debug for project Arboles ****
+make all 
+Building file: ../src/Arboles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arboles.d" -MT"src/Arboles.d" -o "src/Arboles.o" "../src/Arboles.cpp"
+Finished building: ../src/Arboles.cpp
+ 
+Building target: Arboles
+Invoking: GCC C++ Linker
+g++  -o "Arboles"  ./src/Arboles.o   
+Finished building target: Arboles
+ 
+09:31:55 **** Incremental Build of configuration Debug for project Arboles ****
+make all 
+Building file: ../src/Arboles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arboles.d" -MT"src/Arboles.d" -o "src/Arboles.o" "../src/Arboles.cpp"
+Finished building: ../src/Arboles.cpp
+ 
+Building target: Arboles
+Invoking: GCC C++ Linker
+g++  -o "Arboles"  ./src/Arboles.o   
+Finished building target: Arboles
+ 
+10:07:52 **** Clean-only build of configuration Debug for project Arboles ****
+make clean 
+rm -rf  ./src/Arboles.o  ./src/Arboles.d  Arboles
+ 
+10:07:59 **** Build of configuration Debug for project T1 ****
+make all 
+Building file: ../src/T1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/T1.d" -MT"src/T1.d" -o "src/T1.o" "../src/T1.cpp"
+Finished building: ../src/T1.cpp
+ 
+Building target: T1
+Invoking: GCC C++ Linker
+g++  -o "T1"  ./src/T1.o   
+Finished building target: T1
+ 
+10:16:20 **** Clean-only build of configuration Debug for project Arboles ****
+make clean 
+rm -rf  ./src/Arboles.o  ./src/Arboles.d  Arboles
+ 
+10:16:20 **** Clean-only build of configuration Debug for project T1 ****
+make clean 
+rm -rf  ./src/T1.o  ./src/T1.d  T1
+ 
+10:16:31 **** Build of configuration Debug for project T1 ****
+make all 
+Building file: ../src/T1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/T1.d" -MT"src/T1.d" -o "src/T1.o" "../src/T1.cpp"
+Finished building: ../src/T1.cpp
+ 
+Building target: T1
+Invoking: GCC C++ Linker
+g++  -o "T1"  ./src/T1.o   
+Finished building target: T1
+ 
+10:16:47 **** Incremental Build of configuration Debug for project T1 ****
+make all 
+Building file: ../src/T1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/T1.d" -MT"src/T1.d" -o "src/T1.o" "../src/T1.cpp"
+In file included from ../src/T1.cpp:3:0:
+../src/Persona.h:1:18: fatal error: strin.h: No such file or directory
+src/subdir.mk:18: recipe for target 'src/T1.o' failed
+compilation terminated.
+make: *** [src/T1.o] Error 1

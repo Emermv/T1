@@ -1,0 +1,18 @@
+/*
+ * Persona.cpp
+ *
+ *  Created on: Sep 12, 2016
+ *      Author: emerisau2016
+ */
+
+#include "Persona.h"
+
+Persona::Persona() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Persona::~Persona() {
+	// TODO Auto-generated destructor stub
+}
+
